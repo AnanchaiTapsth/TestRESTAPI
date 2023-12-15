@@ -13,7 +13,6 @@ public class ResponseGetList {
     public List<ResponseGet> getResponseGets() {
         return responseGets;
     }
-    
     public void setResponseGets(List<ResponseGet> responseGets) {
         this.responseGets = responseGets;
     }

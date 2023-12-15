@@ -13,5 +13,4 @@ public class ResponsePost
     private String title;
     @JsonProperty("body")
     private String body;
-
 }

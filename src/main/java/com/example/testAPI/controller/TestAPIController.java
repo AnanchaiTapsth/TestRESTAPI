@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestAPIController {
-
     private final TestAPIService testAPIService;
-
     @Autowired
     public TestAPIController(TestAPIService testAPIService) {
         this.testAPIService = testAPIService;

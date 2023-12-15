@@ -8,10 +8,8 @@ public class ResponseGet
 {
     @JsonProperty("userId")
     private String userId;
-
     @JsonProperty("id")
     private String id;
-
     @JsonProperty("title")
     private String title;
 

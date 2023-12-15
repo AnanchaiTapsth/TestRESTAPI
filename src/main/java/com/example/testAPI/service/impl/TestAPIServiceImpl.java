@@ -20,11 +20,9 @@ public class TestAPIServiceImpl implements TestAPIService {
 
     @Autowired
     private RestTemplate restTemplate;
-
     public TestAPIServiceImpl(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
-
     @Override  // Get
     public ResponseGet getApi() {
         String apiUrl = "https://jsonplaceholder.typicode.com/posts/1";
